@@ -5,6 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>my checkpoint</title>
+    <style>
+      #home, #ser, #cont, #about {
+        text-align: center;
+        color: aqua;
+        background-color: burlywood;
+      }
+    </style>
   </head>
   <body>
     <!-- navbar -->
@@ -36,8 +43,8 @@ li a {
       </ul>
     </nav>
     <!-- main -->
-    <section id="home">
-        <h3>home</h3>
+    <section>
+        <h3 id="home">home</h3>
         <div>
         <p>Notre entreprise vise à booster la visibilité d'une marque auprès d'un public cible.</p> <br> <br> <p>Nous fournissons les services suivants:</p>
             <ul>
@@ -63,6 +70,7 @@ li a {
                      <b>   -	Affiches publicitaires</b>
                      
                     </dt>
+
                     <dd>
                         Diffuser rapide des messages et d'attirer l'attention des prospects et clients 
                     </dd>
@@ -111,7 +119,7 @@ table, th, td {
   border-collapse: collapse;
 }
 </style>
-<h3>about us</h3>
+<h3 id="about">about us</h3>
 <table style="width:100%">
   <tr>
     <th>Firstname</th>
@@ -138,7 +146,7 @@ table, th, td {
 </div>
 </section>
 <section id="services">
-    <h3>services</h3>
+    <h3 id="ser">services</h3>
     <p>Tous les services sont indiqués dans la brochures ci_dessous:</p> <br>
     <embed type="text/html" src="/assets/Les services fournis.pdf"  width="500" height="200">
         <!-- comment mettre un fichier comme téléchargable ?? -->
@@ -148,7 +156,7 @@ table, th, td {
 
 </section>
 <section id="contact">
-    <h3>contact</h3>
+    <h3 id="cont">contact</h3>
     <form action="/action_page.php">
   <label for="fname">First name:</label><br>
   <input type="text" id="fname" name="fname" placeholder="indiquez votre nom"><br>
